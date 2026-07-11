@@ -1,0 +1,21 @@
+{
+  "name": "autocare/hub",
+  "description": "AutoCare Hub — vehicle service workshop management (PHP)",
+  "type": "project",
+  "require": {
+    "php": ">=8.0"
+  },
+  "require-dev": {},
+  "suggest": {
+    "phpmailer/phpmailer": "Production SMTP email delivery",
+    "mpdf/mpdf": "Professional PDF generation"
+  },
+  "autoload": {
+    "psr-4": {
+      "AutoCare\\": "includes/services/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
